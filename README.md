@@ -1,2 +1,2 @@
-# Freecodecamp-html-project-
-practice project bulding a catphotoapp
+# Freecodecamp-projects
+Learning html,css and javascript
