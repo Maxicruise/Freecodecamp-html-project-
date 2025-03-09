@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1 id="title">Just a Survey form</h1>
+    <p id="description">Just a random Survey form</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <input required placeholder="Name" type="text" id="name">
+        <label id="email-label" for="email">Email</label>
+        <input required placeholder="Email" type="email" id="email">
+        <label id="number-label" for="age">Age</label>
+        <input required placeholder="Age" min="2" max="47" type="number" id="number">
+        <label>How is my Survey form</label>
+        <select id="dropdown">
+            <option>Good</option>
+            <option>Bad</option>
+            <option selected >Moderate</option>
+        </select>
+        <label>Just 2 radio buttons</label>
+        <label>first choice</label>
+        <input type="radio" name="radio" value="radio">
+        <label>second choice</label>
+        <input type="radio" name="radio" value="radio" >
+        <label>Checkbox</label>
+        <label>checkbox 1</label>
+        <input type="checkbox" name="" value="1">
+        <label>checkbox 2</label>
+        <input type="checkbox" name="" value="2">
+        <label>other comments</label>
+        <textarea></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
